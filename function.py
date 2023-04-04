@@ -1,6 +1,5 @@
 FILEPATH = "todos.txt"
 
-
 def get_todos(filepath=FILEPATH):
     """Reads a text file and returns list of to-do items"""
     with open(filepath, "r") as file_local:
